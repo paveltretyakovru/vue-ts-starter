@@ -1,0 +1,15 @@
+{
+  "name": "localezator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.oz.digital:8122/tretyakovpavel/localezator.git"
+  },
+  "author": "Pavel Vyacheslavovich Tretyakov <1@tretyakovpavel.ru>",
+  "license": "ISC"
+}
