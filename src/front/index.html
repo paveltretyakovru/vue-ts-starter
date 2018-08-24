@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OZ Localezator</title>
+</head>
+<body>
+  <h3>Hello OZ Localezator</h3>
+
+  <div id="app">
+
+    <input v-model="message">
+
+    <p>What can you find on the hell:</p>
+
+    <p>Completed function: {{ testFunction }}</p>
+
+    <hell-options v-bind:options="products">
+    </hell-options>
+
+    <div>
+      <button @click="products.push('new element')">Add element</button>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+npm install --save vue vue-class-component vue-material vue-property-decorator
+npm install --save-dev babel-core babel-loader css-loader style-loader ts-loader typescript webpack webpack-dev-server vue-template-compiler vue-loader webpack-cli html-webpack-plugin babel-plugin-transform-es2015-modules-commonjs
